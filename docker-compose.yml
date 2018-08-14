@@ -4,12 +4,7 @@ services:
         image: nginx:alpine
         volumes:
             - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
-            - "./etc/nginx/sites-enabled/admin.conf:/etc/nginx/sites-enabled/admin.conf"
-            - "./etc/nginx/sites-enabled/cceea.conf:/etc/nginx/sites-enabled/cceea.conf"
-            - "./etc/nginx/sites-enabled/engimia.conf:/etc/nginx/sites-enabled/engimia.conf"
-            - "./etc/nginx/sites-enabled/energizate.conf:/etc/nginx/sites-enabled/energizate.conf"            
-            - "./etc/nginx/sites-enabled/solarhub.conf:/etc/nginx/sites-enabled/solarhub.conf"
-            - "./etc/nginx/sites-enabled/pagos.conf:/etc/nginx/sites-enabled/pagos.conf"
+            - "./etc/nginx/sites-enabled/ejemplo.conf:/etc/nginx/sites-enabled/ejemplo.conf"
             - "./web:/var/www/html"
         ports:
             - "80:80"
