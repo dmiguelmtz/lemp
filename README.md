@@ -1,6 +1,6 @@
  # Nginx PHP MySQL 
 
-Docker running Nginx, PHP 7.0, MySQL and PHPMyAdmin.
+Docker Nginx, PHP 7.0, MySQL y PHPMyAdmin.
 
     1. Iniciar la aplicación 
 
