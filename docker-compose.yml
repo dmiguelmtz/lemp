@@ -15,7 +15,8 @@ services:
             - php
             - mysqldb
     php:
-        image: php:${PHP_VERSION}-fpm
+        build: ./php/
+        container_name: "php-fpm-mysql"
         restart: always
         volumes:
             - "./web:/var/www/html"
